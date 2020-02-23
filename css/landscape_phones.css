@@ -1,0 +1,91 @@
+@media (max-width: 767.98px) {
+    .top--section--title {
+        margin-top: 80px;
+    }
+
+    .top--section--subtitle {
+        font-size: 13px;
+    }
+
+    .top_section {
+        background-size: 100% 120%;
+        background-position: center top;
+        padding-bottom: 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h4 {
+        font-size: 20px;    
+    }
+
+    nav {
+        padding-top: 20px;
+    }
+
+    .text_describe {
+        line-height: 21px;
+    }
+
+    .first_screen {
+        height: auto;
+    }
+
+    .best_box {
+        padding: 30px 0 30px 5px;
+    }
+
+    .best--text {
+        margin-bottom: 30px;
+    }
+
+    .service {
+        padding: 30px 0;
+    }
+
+    .service_box {
+        text-align: center;
+    }
+
+    .service--section--title {
+        margin-bottom: 30px;
+    }
+
+    .service_box_design,
+    .service_box_web_app {
+        padding-right: 0;
+    }
+
+    .service_box_painting,
+    .service_box_desc_app {
+        padding-left: 0;
+    }
+
+    .about--subtitle {
+        line-height: 24px;
+    }
+
+    .person--text {
+        width: 90%;
+    }
+
+    .person_wrapper {
+        padding-bottom: 0;
+    }
+    /* .best {
+        background: none;
+    }
+    .best_box {
+        background-image: url(../img/background_3.jpg);
+    } */
+}

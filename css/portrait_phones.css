@@ -1,0 +1,75 @@
+@media (max-width: 575.98px) {
+    .logo {
+        font-size: 19px;
+    }
+
+    .top_section {
+        background-size: cover;
+    }
+
+    .top--section--title {
+        margin-top: 90px;
+    }
+
+    .top--section--subtitle {
+        color: #fff;
+        width: 80%;
+    }
+
+    .section-subtitle {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    
+    .best {
+        background: none;
+    }
+
+    .best .col-12 {
+        padding: 0;
+    }
+
+    .best_box {
+        background-image: url(../img/background_2.jpg);
+        background-size: 200% 100%;
+        background-repeat: repeat-y;
+    }
+
+    .text_describe {
+        font-size: 13px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .best--box--design {
+        background-position: top left;
+    }
+    
+    .best--box--code {
+        background-position: top right;
+    }
+
+    .service_box {
+        padding: 120px 0 0;
+        position: relative;
+    }
+
+    .service_box::before {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .slide--btn {
+        bottom: 20px;
+    }
+    
+    .person_img {
+        width: 100px;
+    }
+
+    .person--text {
+        width: 60%;
+    }
+}
