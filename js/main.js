@@ -20,10 +20,10 @@ $(document).ready(function(){
   var owl = $('.owl-carousel');
     owl.owlCarousel();
 
-    $('.prew_btn').click(function() {
+    $('.ctrl_btn--prev').click(function() {
         owl.trigger('prev.owl.carousel');
     })
-    $('.next_btn').click(function() {
+    $('.ctrl_btn--next').click(function() {
         owl.trigger('next.owl.carousel');
     })
 
