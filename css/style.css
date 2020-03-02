@@ -213,3 +213,44 @@ h4 {
 }
 
 /*BEST E*/
+/*SERVICE S*/
+.service {
+  padding: 70px 0;
+}
+.service h2 {
+  margin-bottom: 90px;
+}
+
+.service_box {
+  padding-left: 155px;
+  margin-bottom: 80px;
+  position: relative;
+}
+.service_box h3 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.service_box p {
+  color: #949494;
+}
+.service_box::before {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.service_box_design::before {
+  content: url(../img/icon/work_icon_1.png);
+}
+.service_box_painting::before {
+  content: url(../img/icon/work_icon_2.png);
+}
+.service_box_web_app::before {
+  content: url(../img/icon/work_icon_3.png);
+}
+.service_box_desc_app::before {
+  content: url(../img/icon/work_icon_4.png);
+}
+
+/*SERVICE E*/
