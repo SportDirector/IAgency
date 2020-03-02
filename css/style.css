@@ -187,4 +187,29 @@ h4 {
 
 /*TOP_SECTION END*/
 /*BEST S*/
+.best {
+  background: url(../img/background_2.jpg) no-repeat center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+.best_box {
+  padding: 80px 20px;
+}
+.best_box h2 {
+  margin-bottom: 21px;
+}
+.best_box h2 span {
+  font-weight: 300;
+}
+.best_box p {
+  margin-bottom: 44px;
+}
+
+.text_describe {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
 /*BEST E*/
