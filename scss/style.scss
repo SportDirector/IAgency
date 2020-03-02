@@ -337,3 +337,42 @@ h4 {
     }
 }
 /*PORTFOLIO E*/
+/*ABOUT S*/
+.about_section {
+    padding: 90px 0;
+    background: url(../img/background_4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+}
+
+.about--subtitle {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 90px;
+}
+
+.person_wrapper {
+    margin-bottom: 90px;
+}
+
+.person_box {
+    text-align: center;
+
+    img {
+        width: 130px;
+        margin: 0 auto 25px;
+    }
+
+    h4 {
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    p {
+        color: #949494;
+    }
+}
+/*ABOUT E*/
