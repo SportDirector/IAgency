@@ -108,6 +108,10 @@
     transform: translate(-100%, -50%);
   }
 
+  .slide_describe {
+    opacity: 1;
+    background-color: transparent;
+  }
   .slide_describe * {
     display: none;
   }
