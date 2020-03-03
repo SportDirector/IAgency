@@ -1,4 +1,5 @@
-@import "variables";
+@import 'variables.scss';
+
 
 .page {
     font-family: 'Roboto', sans-serif;
@@ -55,7 +56,7 @@ nav {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
-        background-color: #fff;
+        background-color: $burgerColor;
         transition: 0.3s;
     }
 
@@ -67,7 +68,7 @@ nav {
         left: 0;
         width: 100%;
         height: 2px;
-        background-color: #fff;
+        background-color: $burgerColor;
         transition: 0.3s;
     }
 
@@ -82,7 +83,6 @@ nav {
     &.active::before {
         transform: rotate(45deg);
         top: 9px;
-        
     }
     
     &.active::after {
@@ -146,7 +146,7 @@ h4 {
 
 .section_subtitle {
     font-size: 16px;
-    color: #949494;
+    color: $sectionSubtitleColor;
     margin-bottom: 64px;
     text-align: center;
 }
@@ -156,7 +156,7 @@ h4 {
     width: 180px;
     height: 45px;
     border-radius: 50px;
-    color: #ffffff;
+    color: $btnTextColor;
     font-size: 16px;
     cursor: pointer;
     position: relative;
@@ -169,7 +169,7 @@ h4 {
         display: block;
         height: 100%;
         width: 200%;
-        background: linear-gradient(to right, #49007c, #bd0688, #49007c);
+        background: linear-gradient(to right, $startBtnxColor, $endBtnColor, $startBtnxColor);
         position: absolute;
         top: 0;
         left: 0;
@@ -206,7 +206,7 @@ h4 {
 .best {
     background: url(../img/background_2.jpg) no-repeat center;
     background-size: cover;
-    color: #ffffff;
+    color: $titleColor1;
 }
 
 .best_box {
@@ -222,6 +222,7 @@ h4 {
 
     p {
         margin-bottom: 44px;
+        color: $textDescribeColor2;
     }
 }
 
@@ -237,6 +238,7 @@ h4 {
 
     h2 {
         margin-bottom: 90px;
+        color: $titleColor2;
     }
 }
 
@@ -248,10 +250,11 @@ h4 {
     h3 {
         font-weight: bold;
         margin-bottom: 10px;
+        color: $titleColor2;
     }
 
     p {
-        color: #949494;
+        color: $textDescribeColor3;
     }
 
     &::before {
@@ -291,7 +294,7 @@ h4 {
     transform: translateY(-50%);
     width: 56px;
     height: 58px;
-    background-color: #ffffff;
+    background-color: $controlBtnBGColor;
     z-index: 10;
     text-align: center;
     line-height: 58px;
@@ -313,8 +316,8 @@ h4 {
     top: 0;
     left: 0;
     text-align: center;
-    color: #ffffff;
-    background-color: rgba(0,0,0,0.6);
+    color: $textDescribeColor2;
+    background-color: $backgroundDimming;
     opacity: 0;
     transition: 0.5s;
 
@@ -334,6 +337,7 @@ h4 {
         margin-bottom: 40px;
         line-height: 20px;
         font-weight: 300;
+        color: $textDescribeColor2;
     }
 }
 /*PORTFOLIO E*/
@@ -343,7 +347,7 @@ h4 {
     background: url(../img/background_4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: $titleColor1;
 }
 
 .about--subtitle {
@@ -369,10 +373,6 @@ h4 {
     h4 {
         margin-bottom: 30px;
         font-weight: 700;
-    }
-
-    p {
-        color: #949494;
     }
 }
 /*ABOUT E*/
